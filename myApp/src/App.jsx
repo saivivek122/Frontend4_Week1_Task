@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCoins } from "./redux/coinSlice";
 import SearchCoins from "./components/SearchCoins";
-import DisplayCoins from "./components/displayCoins";
+import DisplayCoins from "./components/DisplayCoins";
 import SortCoins from "./components/SortCoins";
 import "./App.css"
 
