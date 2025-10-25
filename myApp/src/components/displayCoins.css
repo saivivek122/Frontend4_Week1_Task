@@ -1,0 +1,46 @@
+ 
+ .below {
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 30px;
+
+} 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 10px;
+  border: none;
+}
+td{
+  margin-left: 1px;
+}
+
+tr {
+  border-bottom: 1px solid #2a2f3a;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+#crypto-table tr:hover td {
+  background-color: #222832;
+  transition: background 0.3s ease;
+}
+.no-result{
+    text-align: center;
+    margin-left: 300px;
+   
+}
